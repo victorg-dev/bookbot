@@ -1,2 +1,4 @@
 # ignore entire books directory
 books
+
+__pycache__
