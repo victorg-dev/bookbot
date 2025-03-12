@@ -16,3 +16,20 @@ def count_characters(contents):
             character_counts[char] = 1
 
     return character_counts
+
+
+# Helper function which returns the value that should be used
+# for sorting
+def sort_by(dict):
+    return dict["count"]
+
+
+# TODO write desc.
+def sort_character_counts(character_counts):
+    sorted_character_counts = []
+    for char, count in character_counts.items():
+        sorted_character_counts.append({"char": char, "count": count})
+    
+    sorted_character_counts.sort(reverse=True, key=sort_by)
+
+    return sorted_character_counts
