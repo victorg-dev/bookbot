@@ -24,7 +24,8 @@ def sort_by(dict):
     return dict["count"]
 
 
-# TODO write desc.
+# Returns a list of dictionaries with two key-value pairs, sorted 
+# from highest-to-lowest by count
 def sort_character_counts(character_counts):
     sorted_character_counts = []
     for char, count in character_counts.items():
