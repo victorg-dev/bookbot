@@ -12,7 +12,8 @@ def get_book_text(path_to_file):
     return file_contents
 
 
-# TODO write desc.
+# Generates and returns a report of the contents of the
+# file path specified by the user
 def generate_report(path_to_book, book_word_count, book_sorted_character_counts):
     report = "============ BOOKBOT ============\n"
     report += f"Analyzing book found at {path_to_book}\n"
