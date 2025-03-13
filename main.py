@@ -28,7 +28,7 @@ def generate_report(path_to_book, book_word_count, book_sorted_character_counts)
     return report
 
 
-# The main function handles argument validation displaying
+# The main function handles argument validation and displaying
 # the book report to the user
 def main():
     if len(sys.argv) != 2:
