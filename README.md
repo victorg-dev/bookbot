@@ -1,6 +1,8 @@
 # Bookbot
 
-A command-line text analysis tool that processes book files and provides insightful statistics about their contents.
+BookBot is my first [Boot.dev](https://www.boot.dev) project!
+
+BookBot is a command-line text analysis tool that processes book files and provides insightful statistics about their contents.
 
 ## Features
 - Word count analysis
